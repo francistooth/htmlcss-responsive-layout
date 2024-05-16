@@ -2,5 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
 }
 
+/* utility */
+
+/* colors */
+
+/* 
+    #0084fd banner blue
+    #b5ddff demo sect div
+    #9792e4 planning sect bg
+    #fdc15f get started title text color
+*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: #0084fd;
+}
+
+/* misc */
+
+.padding-standard {
+    padding: 20px 40px;
+}
