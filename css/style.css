@@ -5,6 +5,10 @@
     font-family: "PT Sans", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* utility */
 
 /* colors */
@@ -16,18 +20,16 @@
     #fdc15f get started title text color
 */
 
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .color-white {
     color: white;
 }
 
 .bg-white {
     background-color: white;
+}
+
+.color-blue {
+    color: #0084fd;
 }
 
 .bg-blue {
@@ -38,4 +40,31 @@
 
 .padding-standard {
     padding: 20px 40px;
+}
+
+.border-radius-standard {
+    border-radius: 25px;
+}
+
+/* header style */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* demo section */
+
+.demo-div {
+    width: 100%;
+    background-color: #b5ddff;
 }
