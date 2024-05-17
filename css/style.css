@@ -36,14 +36,99 @@ a {
     background-color: #0084fd;
 }
 
+.bg-violet {
+    background-color: #9792e4;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-gray {
+    color: gray;
+}
+
 /* misc */
+
+/* font and text */
+
+.t-align-center {
+    text-align: center;
+}
+
+.font-size-larger {
+    font-size: 1.3rem;    
+}
+
+.font-size-2rem {
+    font-size: 2rem;    
+}
+
+.font-size-en {
+    font-size: 4rem;    
+}
+
+/* padding */
 
 .padding-standard {
     padding: 20px 40px;
 }
 
+.padding-10-40 {
+    padding: 10px 40px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-40 {
+    padding: 40px;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+/* margin */
+
+.margin-top-standard {
+    margin-top: 150px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-0-auto {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* width */
+
+.width-100 {
+    width: 100%;
+}
+
+/* border */
+
 .border-radius-standard {
     border-radius: 25px;
+}
+
+.border-radius-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 /* header style */
@@ -68,3 +153,10 @@ header {
     width: 100%;
     background-color: #b5ddff;
 }
+
+/* planning section */
+
+.down-arrow-div {
+    display: flex;
+    justify-content: center;
+} 
