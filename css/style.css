@@ -94,6 +94,10 @@ a {
     padding: 20px 40px;
 }
 
+.padding-standard-pc {
+    padding: 20px 300px;
+}
+
 .padding-10-40 {
     padding: 10px 40px;
 }
@@ -192,10 +196,35 @@ header {
     z-index: 1;
 }
 
-.banner {
+.phone-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* header pc */
+
+.pc-banner {
+    display: none;
+}
+
+.pc-banner ul {
+    display: flex;
+    gap: 10px 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (min-width:1140px) {
+    .phone-banner {
+        display: none;
+    }
+
+    .pc-banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 /* demo section */
@@ -226,6 +255,21 @@ header {
         width: 31%;
     }
 }
+
+/* demo pc section */
+
+@media screen and (min-width:1140px) {
+    .padding-standard {
+        padding: 20px 300px;
+    }
+
+    .demo .container div:first-child img {
+        float: right;
+        max-width: 40%;
+    }
+}
+
+/* padding: 20px 300px; */
 
 /* planning section */
 
