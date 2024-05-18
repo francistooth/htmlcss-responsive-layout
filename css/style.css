@@ -208,17 +208,17 @@ header {
 /* demo tablet section */
 
 @media screen and (min-width: 780px) {
-    .container {
+    .demo .container {
         display: flex;
         flex-wrap: wrap;
         gap: 0px 20px;
     }
 
-    .container div:first-child {
+    .demo .container div:first-child {
         width: 64%;
     }
 
-    .container div:nth-child(-n + 2) {
+    .demo .container div:nth-child(-n + 2) {
         margin-top: 150px;
     }
 
@@ -274,8 +274,47 @@ header {
         object-fit: cover;
     }
 
+    .container div:nth-child(-n + 2) {
+        margin-top: 50px;
+    }
+
     .testimonial-div img {
         float: left;
+    }
+}
+
+/* work with us */
+
+/* work with us tablet */
+
+@media screen and (min-width: 780px) {
+    .work-with-us .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 20px;
+    }
+
+    .work-element {
+        width: 48%;
+    }
+}
+
+/* about us */
+
+/* about us tablet */
+
+@media screen and (min-width: 780px) {
+    div.about-us {
+        display: flex;
+        gap: 0px 20px;
+    }
+
+    .about-us .container-left {
+        width: 59%;
+    }
+
+    .about-us .container-right {
+        width: 39%;
     }
 }
 
