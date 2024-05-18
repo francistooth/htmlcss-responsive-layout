@@ -48,8 +48,20 @@ a {
     color: black;
 }
 
+.bg-black {
+    background-color: #333333;
+}
+
 .color-gray {
     color: gray;
+}
+
+.color-lgray {
+    color: lightgray;
+}
+
+.color-yellow {
+    color: #fdc15f;
 }
 
 /* misc */
@@ -68,6 +80,10 @@ a {
     font-size: 2rem;    
 }
 
+.font-size-3rem {
+    font-size: 3rem;
+}
+
 .font-size-en {
     font-size: 4rem;    
 }
@@ -82,8 +98,16 @@ a {
     padding: 10px 40px;
 }
 
+.padding-20-80 {
+    padding: 20px 80px;
+}
+
 .padding-10 {
     padding: 10px;
+}
+
+.padding-10-20 {
+    padding: 10px 20px;
 }
 
 .padding-20 {
@@ -120,6 +144,10 @@ a {
     margin-bottom: 30px;
 }
 
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
 .margin-0-auto {
     width: 100%;
     margin: 0 auto;
@@ -142,6 +170,17 @@ a {
     width: 50px;
     border-radius: 50%;
 }
+
+.border-radius-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.border-radius-50 {
+    border-radius: 50%;
+}
+
 
 /* header style */
 
@@ -166,6 +205,28 @@ header {
     background-color: #b5ddff;
 }
 
+/* demo tablet section */
+
+@media screen and (min-width: 780px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 20px;
+    }
+
+    .container div:first-child {
+        width: 64%;
+    }
+
+    .container div:nth-child(-n + 2) {
+        margin-top: 150px;
+    }
+
+    .demo-div {
+        width: 31%;
+    }
+}
+
 /* planning section */
 
 .down-arrow-div {
@@ -180,3 +241,54 @@ header {
 }
 
 /* testimonials */
+
+.testimonial-div {
+    width: 100%;
+}
+
+.round-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-img {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.img-quote {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width: 780px) {
+    .round-img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .testimonial-div img {
+        float: left;
+    }
+}
+
+/* get started */
+
+div.get-started * {
+    display: block;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.footer-div p {
+    display: block;
+}
