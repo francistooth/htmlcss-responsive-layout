@@ -328,6 +328,25 @@ div.get-started * {
     text-decoration: underline;
 }
 
+/* get started tablet */
+
+@media screen and (min-width: 780px) {
+    div.get-started {
+        padding: 20px 200px;
+    }
+}
+
+
+/* footer */
+
 .footer-div p {
     display: block;
+}
+
+/* footer tablet */
+
+@media screen and (min-width: 780px) {
+    div.footer-div {
+        padding: 20px 200px;
+    }
 }
