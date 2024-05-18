@@ -243,11 +243,11 @@ header {
         gap: 0px 20px;
     }
 
-    .demo .container div:first-child {
+    .demo .container .demo-div:first-child {
         width: 64%;
     }
 
-    .demo .container div:nth-child(-n + 2) {
+    .demo .container .demo-div:nth-child(-n + 2) {
         margin-top: 150px;
     }
 
@@ -263,9 +263,20 @@ header {
         padding: 20px 300px;
     }
 
-    .demo .container div:first-child img {
-        float: right;
-        max-width: 40%;
+    .demo .container .demo-div:first-child {
+        display: flex;
+        align-items: flex-start;
+        gap: 0px 20px;
+    }
+
+    .demo-container-left {
+        max-width: 59%;
+        margin: 0;
+    }
+
+    .demo-container-right {
+        max-width: 39%;
+        align-self: flex-end;
     }
 }
 
@@ -282,6 +293,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* planning pc  */
+
+@media screen and (min-width:1140px) {
+    div.planning {
+        padding: 20px 400px;
+    }
 }
 
 /* testimonials */
@@ -318,10 +337,6 @@ header {
         object-fit: cover;
     }
 
-    .container div:nth-child(-n + 2) {
-        margin-top: 50px;
-    }
-
     .testimonial-div img {
         float: left;
     }
@@ -340,6 +355,14 @@ header {
 
     .work-element {
         width: 48%;
+    }
+}
+
+/* work with us pc */
+
+@media screen and (min-width:1140px) {
+    .work-element {
+        max-width: 30%;
     }
 }
 
@@ -380,6 +403,14 @@ div.get-started * {
     }
 }
 
+/* get started pc */
+
+@media screen and (min-width:1140px) {
+    div.get-started {
+        padding: 20px 500px;
+    }
+}
+
 
 /* footer */
 
@@ -392,5 +423,13 @@ div.get-started * {
 @media screen and (min-width: 780px) {
     div.footer-div {
         padding: 20px 200px;
+    }
+}
+
+/* footer pc */
+
+@media screen and (min-width:1140px) {
+    div.footer-div {
+        padding: 20px 500px;
     }
 }
